@@ -1,6 +1,8 @@
-.test{
-    text-align: left;
-    &__box{
-        margin: 0;
-    }
+.header{
+  &__top{
+    display: flex;
+  }
+  .logo{
+    max-width: 220px;
+  }
 }
