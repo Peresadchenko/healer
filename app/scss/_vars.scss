@@ -1,4 +1,25 @@
 $default: #1EA262;
 $title: #1C3A2C;
 $text: #898989;
-$btn: #E5B141;
+$btn: #db9e29;
+$btn-2:#EBBC4E;
+
+%Inter-700{
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+}
+
+%Inter-500{
+  font-family: 'Inter-Medium';
+  font-weight: 500;
+}
+
+%Inter-400{
+  font-family: 'Inter-Regular';
+  font-weight: 400;
+}
+
+// %Roboto-Italic-400{
+//   font-family: 'Inter-Italic';
+//   font-weight: 400;
+// }
