@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -17,6 +17,13 @@ body {
   padding: 15px 50px;
   @extend %Inter-500;
   transition: all 0.3s;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 44px;
+  color: $title;
+  @extend %Inter-700;
 }
 
 .slick-dots {
@@ -41,4 +48,18 @@ body {
 }
 .slick-dots li + li {
   margin-left: 15px;
+}
+
+.prev{ 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: $title;
+  background-color: transparent;
 }
