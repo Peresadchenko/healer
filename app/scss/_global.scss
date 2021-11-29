@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -17,6 +17,13 @@ body {
   padding: 15px 50px;
   @extend %Inter-500;
   transition: all 0.3s;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 44px;
+  color: $title;
+  @extend %Inter-700;
 }
 
 .slick-dots {
@@ -41,4 +48,63 @@ body {
 }
 .slick-dots li + li {
   margin-left: 15px;
+}
+
+.prev {
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: -35px;
+  .swiper-prev {
+    width: 40px;
+    height: 12px;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    background: no-repeat center url("../images/slider/arrow-L.png");
+    border: none;
+    padding: 0;  
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .swiper-prev:hover{
+    width: 35px;
+  }
+  .swiper-next {
+    width: 40px;
+    height: 12px;
+    position: absolute;
+    top: 40px;
+    right: 40%;
+    background: no-repeat center url("../images/slider/arrow-R.png");
+    border: none;
+    padding: 0;  
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .swiper-next:hover{
+    width: 35px;
+  }
+}
+
+.swiper {
+  .swiper-pagination {
+    display: contents;
+    color: #719785;
+    .swiper-pagination-total {
+      font-style: 16px;
+      line-height: 19px;
+      color: #719785;
+    }
+    .swiper-pagination-total {
+      line-height: 19px;
+      color: #719785;
+    }
+    .swiper-pagination-current {
+      font-size: 24px;
+      line-height: 29px;
+      color: #1d3e2e;
+    }
+  }
 }
