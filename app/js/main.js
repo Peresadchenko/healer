@@ -27,9 +27,17 @@ $(function () {
     pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
+<<<<<<< HEAD
       renderFraction: function (currentClass, totalClass) {
         return '<span class="' + currentClass + '"></span>' + ' / ' + '<span class="' + totalClass + '"></span';
       },
+=======
+      // clickable: true,
+    //   dynamicBullets: true,
+    //   renderBullet: function (index, className) {
+    //     return '<span class="' + className + '">' + (index + 1) + '</span>';
+    //   },
+>>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
     },
 
   });

@@ -50,6 +50,7 @@ body {
   margin-left: 15px;
 }
 
+<<<<<<< HEAD
 .prev {
   height: 30px;
   display: flex;
@@ -107,4 +108,18 @@ body {
       color: #1d3e2e;
     }
   }
+=======
+.prev{ 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: $title;
+  background-color: transparent;
+>>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
 }

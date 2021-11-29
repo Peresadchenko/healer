@@ -470,18 +470,30 @@
     max-width: 667px;
     margin-bottom: 65px;
     display: inline-block;
+<<<<<<< HEAD
   }
   &__item {
     max-width: 270px;
     margin: 0 17px 50px 0;
     border: 1px solid #dcdcdc;
+=======
+  }  
+  &__item {
+    max-width: 270px;
+    margin: 0 17px 50px 0;
+    border: 1px solid #DCDCDC;
+>>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
     border-radius: 5px;
     text-align: center;
   }
   &__item:last-child {
     margin-right: 0;
   }
+<<<<<<< HEAD
   &__item-img {
+=======
+  &__item-img{
+>>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
     margin-bottom: 35px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -504,6 +516,7 @@
   }
 }
 
+<<<<<<< HEAD
 .information {
   background: #f9f9f9; 
   &__wrapper{
@@ -589,6 +602,8 @@
   }
 }
 
+=======
+>>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
 .footer {
   text-align: center;
   background-color: #1d3e2e;
