@@ -49,77 +49,62 @@ body {
 .slick-dots li + li {
   margin-left: 15px;
 }
-
-<<<<<<< HEAD
 .prev {
   height: 30px;
   display: flex;
   justify-content: space-evenly;
   position: relative;
   margin-top: -35px;
+  margin-bottom: 60px;
   .swiper-prev {
     width: 40px;
     height: 12px;
     position: absolute;
-    top: 40px;
+    top: 35px;
     left: 40%;
     background: no-repeat center url("../images/slider/arrow-L.png");
     border: none;
-    padding: 0;  
+    padding: 0;
     cursor: pointer;
-    transition: all .3s;
+    transition: all 0.3s;
   }
-  .swiper-prev:hover{
+  .swiper-prev:hover {
     width: 35px;
   }
   .swiper-next {
     width: 40px;
     height: 12px;
     position: absolute;
-    top: 40px;
+    top: 35px;
     right: 40%;
     background: no-repeat center url("../images/slider/arrow-R.png");
     border: none;
-    padding: 0;  
+    padding: 0;
     cursor: pointer;
-    transition: all .3s;
+    transition: all 0.3s;
   }
-  .swiper-next:hover{
+  .swiper-next:hover {
     width: 35px;
   }
 }
 
-.swiper {
-  .swiper-pagination {
-    display: contents;
+.swiper-pagination {
+  position: absolute;
+  top: 20px;
+  color: #719785;
+  .swiper-pagination-total {
+    font-style: 16px;
+    line-height: 19px;
     color: #719785;
-    .swiper-pagination-total {
-      font-style: 16px;
-      line-height: 19px;
-      color: #719785;
-    }
-    .swiper-pagination-total {
-      line-height: 19px;
-      color: #719785;
-    }
-    .swiper-pagination-current {
-      font-size: 24px;
-      line-height: 29px;
-      color: #1d3e2e;
-    }
   }
-=======
-.prev{ 
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.swiper .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 20px;
-  color: $title;
-  background-color: transparent;
->>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
+  .swiper-pagination-total {
+    line-height: 19px;
+    color: #719785;
+  }
+  .swiper-pagination-current {
+    font-size: 24px;
+    line-height: 29px;
+    color: #1d3e2e;
+  }
+  
 }

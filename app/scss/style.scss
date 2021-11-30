@@ -470,33 +470,25 @@
     max-width: 667px;
     margin-bottom: 65px;
     display: inline-block;
-<<<<<<< HEAD
   }
   &__item {
     max-width: 270px;
     margin: 0 17px 50px 0;
     border: 1px solid #dcdcdc;
-=======
-  }  
-  &__item {
-    max-width: 270px;
-    margin: 0 17px 50px 0;
-    border: 1px solid #DCDCDC;
->>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
     border-radius: 5px;
     text-align: center;
   }
   &__item:last-child {
     margin-right: 0;
   }
-<<<<<<< HEAD
   &__item-img {
-=======
-  &__item-img{
->>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
+    max-width: 270px;
+    height: 313px;
     margin-bottom: 35px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom-left-radius: 16%;
+    border-bottom-right-radius: 16%;
   }
   &__item-name {
     padding: 0 20px;
@@ -516,13 +508,12 @@
   }
 }
 
-<<<<<<< HEAD
-.information {ыы
-  background: #f9f9f9; 
-  &__wrapper{
+.information {
+  background: #f9f9f9;
+  &__wrapper {
     position: relative;
   }
-  &__wrapper::before{
+  &__wrapper::before {
     content: "";
     position: absolute;
     background: left url(../images/information-services-fon.jpg);
@@ -530,7 +521,6 @@
     height: 533px;
     top: 0;
     right: 0;
-
   }
   &__inner {
     display: flex;
@@ -543,9 +533,8 @@
     max-width: 571px;
     max-height: 543px;
     padding: 100px 95px 0 0;
-    
   }
-  &__system-inner::after{
+  &__system-inner::after {
     content: "";
     position: absolute;
     background: center no-repeat url(../images/information-system-macbook.png);
@@ -554,7 +543,7 @@
     bottom: -15px;
     left: 0;
   }
-  &__system-inner::before{
+  &__system-inner::before {
     content: "";
     position: absolute;
     background: top no-repeat url(../images/information-system-iPhone.png);
@@ -577,8 +566,8 @@
 
   &__services {
     width: 50%;
-    max-height: 543px;   
-    z-index: 1; 
+    max-height: 543px;
+    z-index: 1;
   }
   &__services-inner {
     max-width: 530px;
@@ -602,8 +591,122 @@
   }
 }
 
-=======
->>>>>>> 349cf4b9a00379368b1f24e76406850034438c58
+.reviews {
+  &__inner {
+    margin: 125px 0 90px;
+  }
+  &__title {
+    text-align: center;
+    max-width: 721px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  &__slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  .slider-item__content {
+    max-width: 648px;
+  }
+  .slider-item__content-text {
+    padding: 35px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1c3a2c;
+    background: #f9f9f9;
+    border-radius: 3px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .slider-item__content-text::before {
+    content: "";
+    position: absolute;
+    border: 50px solid transparent;
+    border-bottom: 50px solid #f9f9f9;
+    border-left: 0px solid transparent;
+    bottom: -20px;
+    left: 10%;
+    transform: rotate(323deg);
+  }
+
+  .slider-item__content-text::after {
+    content: "";
+    position: absolute;
+    top: -35px;
+    right: 50%;
+    width: 60px;
+    height: 60px;
+    background: center no-repeat url(../images/slider/Ellipse.png);
+  }
+
+  .slider-item__content-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider-item__tel {
+    padding: 0 35px;
+    font-size: 18px;
+    line-height: 22px;
+    color: $text;
+    transition: all 0.3s;
+  }
+  .slider-item__tel:hover {
+    color: $btn;
+  }
+  .slider-item__txt {
+    padding: 0 35px;
+    color: #ec554c;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+  }
+  .slider-item__txt-span {
+    color: #3b89d0;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+  }
+  .slider-item__grade-title {
+    font-size: 80px;
+    line-height: 97px;
+    color: $default;
+    @extend %Inter-700;
+  }
+  .slider-item__grade-txt {
+    font-size: 18px;
+    line-height: 25px;
+    color: #081d0e;
+  }
+  .slider-item__grade-boxik {
+    display: flex;
+    margin-top: 10px;
+  }
+  .star {
+    margin-top: -8px;
+    margin-right: 15px;
+  }
+  .slider-item__content-btnPrev {
+    border: none;
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    top: 50%;
+    left: -20px;
+    background: center no-repeat url(../images/slider/arrow-L.png);
+    cursor: pointer;
+  }
+  .slider-item__content-btnNext {
+    border: none;
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    top: 50%;
+    right: -25px;
+    background: center no-repeat url(../images/slider/arrow-R.png);
+    cursor: pointer;
+  }
+}
+
 .footer {
   text-align: center;
   background-color: #1d3e2e;
