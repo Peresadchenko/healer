@@ -18,3 +18,10 @@ $btn-2:#EBBC4E;
   font-family: 'Inter-Regular';
   font-weight: 400;
 }
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

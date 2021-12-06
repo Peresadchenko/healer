@@ -716,7 +716,8 @@
 }
 
 .clinics {
-  margin-bottom: 115px;
+  background: #f9f9f9;
+  padding-bottom: 115px;
   &__title {
     font-size: 42px;
     line-height: 51px;
@@ -744,9 +745,8 @@
   }
   &__item {
     display: flex;
-    
     margin-right: 15px;
-  }  
+  }
   &__item-inner {
     max-height: 602px;
     overflow-y: scroll;
@@ -770,7 +770,7 @@
     margin: 15px;
     transition: all 0.3s;
   }
-  &__item-box:hover{
+  &__item-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -829,6 +829,75 @@
   &__box-btn:hover {
     background: linear-gradient(40.37deg, #f9d771 0%, #eaba4c 48.44%, #db9e29 100%);
     box-shadow: 0 0 10px $btn;
+  }
+}
+
+.video {
+  background-image: url(../images/video-fon.jpg);
+  padding-bottom: 1px;  
+  &__title {
+    max-width: 720px;
+    padding: 70px 0 50px;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  &__popup{
+    max-width: 720px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 175px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  &__link-btn{
+    max-width: 85px;
+    max-height: 60px;
+    margin: 0 auto;    
+  }
+  &__slider-prev{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .video__slider-btnPrev{
+    border: none;
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 0;
+    left: 40%;
+    margin-right: 20px;
+    background: center no-repeat url(../images/slider/Arrow-L.svg);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .video__slider-btnPrev:hover {
+    width: 35px;
+  }
+  .video__slider-btnNext{
+    border: none;
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 0;
+    right: 40%;
+    margin-left: 20px;
+    background: center no-repeat url(../images/slider/Arrow-R.svg);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .video__slider-btnNext:hover {
+    width: 35px;
   }
 }
 

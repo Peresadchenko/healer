@@ -19,11 +19,31 @@ $(function () {
     autoplaySpeed: 2000
   });
 
-  $('.slider-item__content-btnPrev').click(function (event) {
+  $('.video__slider-wrapper').slick({
+    arrows: false,
+    adaptiveHeight: true,
+    slidesToShow: 1.35,
+    slidesToScroll: 1,
+    infinite: false,
+    speed: 1000,
+    easing: 'ease',
+    centerMode: true,
+    // autoplay: true,
+    autoplaySpeed: 2000
+  });
+
+  $('.slider-item__content-btnPrev, .video__slider-btnPrev').click(function (event) {
     $('.reviews__slider').slick("slickPrev");
   });
-  $('.slider-item__content-btnNext').click(function (event) {
+  $('.slider-item__content-btnNext, .video__slider-btnNext').click(function (event) {
     $('.reviews__slider').slick("slickNext");
+  });
+
+  $('.video__slider-btnPrev').click(function (event) {
+    $('.video__slider-wrapper').slick("slickPrev");
+  });
+  $('.video__slider-btnNext').click(function (event) {
+    $('.video__slider-wrapper').slick("slickNext");
   });
 
   var mixer = mixitup('.clinics', {
@@ -52,10 +72,6 @@ $(function () {
       el: '.swiper-pagination',
       type: 'fraction',
     },
-
-  });
-
-
-
+  });  
 });
 
