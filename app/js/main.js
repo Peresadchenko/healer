@@ -26,6 +26,12 @@ $(function () {
     $('.reviews__slider').slick("slickNext");
   });
 
+  var mixer = mixitup('.clinics', {
+    load: {
+      filter: '.category-a'
+    }
+  });
+
 
   $(".star").rateYo({
     starWidth: "33px",
@@ -48,6 +54,8 @@ $(function () {
     },
 
   });
+
+
 
 });
 
