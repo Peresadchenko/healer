@@ -1,7 +1,7 @@
 body {
   @extend %Inter-400;
   font-size: 16px;
-  line-height: 23px;
+  line-height: 19px;
   color: $text;
 }
 
@@ -12,6 +12,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   border: 1px solid $btn-2;
   border-radius: 50px;
   padding: 15px 50px;
@@ -107,6 +108,40 @@ body {
     color: #1d3e2e;
   }
 }
+
+.slider-item__content-btnPrev, .video__slider-btnPrev, .news__slider-btnPrev, .social__slider-btnPrev{
+  border: none;
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  top: 0;
+  left: 40%;
+  margin-right: 20px;
+  background: center no-repeat url(../images/slider/Arrow-L.svg);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.slider-item__content-btnPrev:hover, .video__slider-btnPrev:hover, .news__slider-btnPrev:hover, .social__slider-btnPrev:hover {
+  width: 35px;
+}
+.slider-item__content-btnNext, .video__slider-btnNext, .news__slider-btnNext, .social__slider-btnNext{
+  border: none;
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  top: 0;
+  right: 40%;
+  margin-left: 20px;
+  background: center no-repeat url(../images/slider/Arrow-R.svg);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.slider-item__content-btnNext:hover,.video__slider-btnNext:hover, .news__slider-btnNext:hover, .social__slider-btnNext:hover {
+  width: 35px;
+}
+
+
+
 
 
 
