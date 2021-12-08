@@ -15,6 +15,11 @@
     .logo__img {
       width: 100%;
     }
+    .logo__img-min{
+      width: 100%;
+      max-width: 45px;
+      display: none;
+    }
   }
   &__top-inner {
     display: flex;
@@ -115,6 +120,9 @@
     background-color: $default;
   }
   .menu {
+    &__btn{
+      display: none;
+    }
     &__list {
       display: flex;
       padding: 18px 0;
@@ -862,6 +870,7 @@
     border: 1px solid #dcdcdc;
     margin-right: 45px;
     margin-bottom: 40px;
+    border-radius: 5px;
   }
   &__slider-img {
     max-width: 350px;
@@ -1155,6 +1164,12 @@
   }
   &__box-social {
     display: flex;
+  }
+  &__social-img{
+    transition: all .3s;
+  }
+  &__social-img:hover{
+    transform: scale(1.1);
   }
 }
 

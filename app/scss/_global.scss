@@ -86,7 +86,7 @@ body {
   }
   .swiper-next:hover {
     width: 35px;
-  }  
+  }
 }
 
 .swiper-pagination {
@@ -109,7 +109,10 @@ body {
   }
 }
 
-.slider-item__content-btnPrev, .video__slider-btnPrev, .news__slider-btnPrev, .social__slider-btnPrev{
+.slider-item__content-btnPrev,
+.video__slider-btnPrev,
+.news__slider-btnPrev,
+.social__slider-btnPrev {
   border: none;
   position: absolute;
   width: 45px;
@@ -121,10 +124,16 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.slider-item__content-btnPrev:hover, .video__slider-btnPrev:hover, .news__slider-btnPrev:hover, .social__slider-btnPrev:hover {
+.slider-item__content-btnPrev:hover,
+.video__slider-btnPrev:hover,
+.news__slider-btnPrev:hover,
+.social__slider-btnPrev:hover {
   width: 35px;
 }
-.slider-item__content-btnNext, .video__slider-btnNext, .news__slider-btnNext, .social__slider-btnNext{
+.slider-item__content-btnNext,
+.video__slider-btnNext,
+.news__slider-btnNext,
+.social__slider-btnNext {
   border: none;
   position: absolute;
   width: 45px;
@@ -136,13 +145,11 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.slider-item__content-btnNext:hover,.video__slider-btnNext:hover, .news__slider-btnNext:hover, .social__slider-btnNext:hover {
+.slider-item__content-btnNext:hover,
+.video__slider-btnNext:hover,
+.news__slider-btnNext:hover,
+.social__slider-btnNext:hover {
   width: 35px;
 }
-
-
-
-
-
 
 
