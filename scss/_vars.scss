@@ -1,0 +1,27 @@
+$default: #1ea262;
+$title: #1c3a2c;
+$text: #898989;
+$btn: #db9e29;
+$btn-2: #ebbc4e;
+
+%Inter-700 {
+  font-family: "Inter-Bold";
+  font-weight: 700;
+}
+
+%Inter-500 {
+  font-family: "Inter-Medium";
+  font-weight: 500;
+}
+
+%Inter-400 {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
